@@ -1,0 +1,215 @@
+/*position*/
+.ind{
+	position: absolute;
+}
+.top-640{
+	top: -640px;
+}
+.top0{
+	top: 0;
+}
+.top640{
+	top: 640px;
+}
+.bottom-640{
+	bottom: -640px;
+}
+.bottom0{
+	bottom: 0;
+}
+.bottom640{
+	bottom: 640px;
+}
+.left-640{
+	left: -640px;
+}
+.left0{
+	left: 0;
+}
+.left640{
+	left: 640px;
+}
+.right-640px{
+	right: -640px;
+}
+.right0{
+	right: 0px;
+}
+.right640{
+	right: 640px;
+}
+.x-center{
+    margin: 0 auto;
+}
+/*size*/
+.fullOfCt{
+	width: 100%;height: auto;
+}
+.width320{
+  width:320px;
+}
+.width640{
+	width: 640px;
+}
+.height320{
+  height:320px;
+}
+.height640{
+	height: 640px;
+}
+.tf-scale0{
+	-webkit-transform: scale(0);
+	   -moz-transform: scale(0);
+	    -ms-transform: scale(0);
+	        transform: scale(0);
+}
+.tf-scale1{
+	-webkit-transform: scale(1);
+	   -moz-transform: scale(1);
+	    -ms-transform: scale(1);
+	        transform: scale(1);
+}
+/*color*/
+.opacity1{
+	opacity: 1;
+}
+.opacity0{
+	opacity: 0;
+}
+.black-slide{
+  background-color:black;
+}
+.red-slide{
+  background-color:red;
+}
+/*animation*/
+.st-duration300ms{
+	-webkit-transition-duration: 300ms;
+	   -moz-transition-duration: 300ms;
+	        transition-duration: 300ms;
+}
+.st-duration600ms{
+	-webkit-transition-duration: 300ms;
+	   -moz-transition-duration: 300ms;
+	        transition-duration: 300ms;
+}
+.st-duration1s{
+	-webkit-transition-duration: 1s;
+	   -moz-transition-duration: 1s;
+	        transition-duration: 1s;
+}
+.st-duration2s{
+	-webkit-transition-duration: 2s;
+	   -moz-transition-duration: 2s;
+	        transition-duration: 2s;
+}
+.st-duration3s{
+	-webkit-transition-duration: 3s;
+	   -moz-transition-duration: 3s;
+	        transition-duration: 3s;
+}
+.st-delay300ms{
+    -webkit-transition-delay:300ms;
+       -moz-transition-delay:300ms;
+            transition-delay:300ms;
+}
+.st-delay600ms{
+    -webkit-transition-delay:600ms;
+       -moz-transition-delay:600ms;
+            transition-delay:600ms;
+}
+.st-delay1s{
+    -webkit-transition-delay:1000ms;
+       -moz-transition-delay:1000ms;
+            transition-delay:1000ms;
+}
+.st-delay2s{
+    -webkit-transition-delay:2000ms;
+       -moz-transition-delay:2000ms;
+            transition-delay:2000ms;
+}
+.st-delay3s{
+    -webkit-transition-delay:3000ms;
+       -moz-transition-delay:3000ms;
+            transition-delay:3000ms;
+}
+.at-duration300s{
+    -webkit-animation-duration:300ms;
+       -moz-animation-duration:300ms;
+            animation-duration:300ms;
+}
+.at-duration600ms{
+    -webkit-animation-duration:600ms;
+       -moz-animation-duration:600ms;
+            animation-duration:600ms;
+}
+.at-duration1s{
+    -webkit-animation-duration:1000ms;
+       -moz-animation-duration:1000ms;
+            animation-duration:1000ms;
+}
+.at-duration2s{
+    -webkit-animation-duration:2000ms;
+       -moz-animation-duration:2000ms;
+            animation-duration:2000ms;
+}
+.at-duration3s{
+    -webkit-animation-duration:3000ms;
+       -moz-animation-duration:3000ms;
+            animation-duration:3000ms;
+}
+.at-delay300ms{
+    -webkit-animation-delay:300ms;
+       -moz-animation-delay:300ms;
+            animation-delay:300ms;
+}
+.at-delay600ms{
+    -webkit-animation-delay:600ms;
+       -moz-animation-delay:600ms;
+            animation-delay:600ms;
+}
+.at-delay1s{
+    -webkit-animation-delay:1000ms;
+       -moz-animation-delay:1000ms;
+            animation-delay:1000ms;
+}
+.at-delay2s{
+    -webkit-animation-delay:2000ms;
+       -moz-animation-delay:2000ms;
+            animation-delay:2000ms;
+}
+.at-delay3s{
+    -webkit-animation-delay:3000ms;
+       -moz-animation-delay:3000ms;
+            animation-delay:3000ms;
+}
+.at-iteration-infinite{
+    -webkit-animation-iteration-count:infinite;
+       -moz-animation-iteration-count:infinite;
+            animation-iteration-count:infinite;
+}
+.at-direction-alternate{
+	-webkit-animation-direction:alternate;
+	   -moz-animation-direction:alternate;
+	        animation-direction:alternate;
+}
+.at-direction-normal{
+	-webkit-animation-direction:normal;
+	   -moz-animation-direction:normal;
+	        animation-direction:normal;
+}
+.at-mode-forwards{
+	-webkit-animation-fill-mode: forwards;
+	   -moz-animation-fill-mode: forwards;
+	        animation-fill-mode: forwards;
+}
+.at-mode-backwards{
+	-webkit-animation-fill-mode: backwards;
+	   -moz-animation-fill-mode: backwards;
+	        animation-fill-mode: backwards;
+}
+.at-mode-both{
+	-webkit-animation-fill-mode: both;
+	   -moz-animation-fill-mode: both;
+	        animation-fill-mode: both;
+}
